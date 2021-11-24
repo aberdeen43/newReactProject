@@ -1,0 +1,35 @@
+.pageTitle {
+    text-align: center;
+}
+
+.gridContainer {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1000px;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 40px;
+    padding: 10px;
+}
+
+.gridItem {
+    background-color: #caccd1;
+}
+
+.gridItem a {
+    text-decoration: none;
+    color: black;
+}
+
+.productImage {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
+
+.productList {
+    list-style-type: none;
+    font-family: "Verdana", Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: x-large;
+}
